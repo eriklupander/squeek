@@ -1,0 +1,12 @@
+unit com.squeed.squeek.testable.StringUtil {
+    test capitalize "First letter upper-case, rest lower case" {
+        in {
+            "mIxEd"
+        }
+        out {
+            notNull
+            instanceof java.lang.String
+            equals "Mixed"
+        }
+    }
+}
